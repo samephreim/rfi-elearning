@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import { courses } from "../data/courses";
+import { courses } from "../data/courses-data";
 const levels = ["All", "Beginner", "Intermediate", "Advanced"] as const;
 const Courses = () => {
   const [filter, setFilter] = useState<string>("All");
