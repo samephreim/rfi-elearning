@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import { courses } from "../data/Courses";
+import { courses } from "../data/courses-data";
 import { useState } from "react";
 
 const CourseDetail = () => {

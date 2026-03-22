@@ -3,8 +3,8 @@ import Learn from "./pages/Learn";
 import Courses from "./pages/Courses";
 import CourseDetail from "./pages/CourseDetail";
 import About from "./pages/About";
-import Login from "./pages/Login";
-import NotFound from "./pages/NotFound";
+import { Login } from "./pages/Login";
+import { NotFound } from "./pages/NotFound";
 
 function App() {
   return (
